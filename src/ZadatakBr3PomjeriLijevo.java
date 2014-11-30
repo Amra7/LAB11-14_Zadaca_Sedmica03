@@ -16,7 +16,10 @@ public static void main(String[] args) {
    pomjeri za jedno mjesto u lijevo
  * @param niz = niz brojeva koje funkcija prima
  */
+ //ovdje je trebalo vratiti niz
 private static void pomrijeriLijevo(int[] niz) {
+	//ovakva postavka petlje radi samo ako je vrijednost prvog clana 1
+	//probaj niz {4, 3, 1, 2, 5}
 	for( int i = niz[0]; i< niz.length; i++ ) {
 		niz [i-1]=niz[i];
 		System.out.print(niz [i] + ",");		
