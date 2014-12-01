@@ -48,3 +48,5 @@ public class ZadatakBr4UnosenjeNiza {
 
 	}
 }
+//program treba da ispise zadnjih a ne prvih 10 elemenata
+//korisnik unosi brojeve dok ne unese -1, znaci da konstrukcija gdje se korisnika pita za duzinu niza nije dozvoljena
