@@ -7,11 +7,11 @@ public class ZadatakBr11CezarovaSifra {
 		System.out.println("Upisi recenicu: ");
 		String recenica = TextIO.getln();
 		
-//		char [] abeceda = {'a','b', 'c', 'è', 'æ', 'd', 'ð', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 'š', 't', 'u', 'v', 'z', 'ž'};
+//		char [] abeceda = {'a','b', 'c', 'Ã¨', 'Ã¦', 'd', 'Ã°', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 'Å¡', 't', 'u', 'v', 'z', 'Å¾'};
 		char[] recenicaNiz = recenica.toCharArray();
 		char [] novaRecenica = new char [recenicaNiz.length];
 		char pomak = 3;
-		
+		//zadnja 3 slova iz abecede nece vratiti zeljenu vrijednost
 		for ( int i = 0; i<recenica.length();  i++){
 			novaRecenica[i] =(char)((recenicaNiz[i] + pomak));
 		}
