@@ -15,7 +15,7 @@ public class ZadatakBr6VracaOkrenutString {
  * Funkcija koja prima string i vraca okrenut string.
  * @param recenica = proizvoljna recenica koju unosimo
  */
-	private static void okretanjeStringa(String recenica) {
+	private static void okretanjeStringa(String recenica) { // treba da vrati string
 		for (int i = 1; i <= recenica.length(); i++) {
 
 			System.out.print(recenica.charAt((recenica.length() - i)));

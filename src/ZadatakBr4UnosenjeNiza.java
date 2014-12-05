@@ -26,12 +26,16 @@ public class ZadatakBr4UnosenjeNiza {
 	 * Funckija koja prima niz brojeva sve dok se ne unese broj -1, a vraca
 	 * prvih deset brojeva niza.
 	 *
-	 * @param niz= proizvoljan niz brojeva koji unosimo.
-	 *            
+	 * @param niz
+	 *            = proizvoljan niz brojeva koji unosimo.
+	 * 
 	 */
 
 	private static void unosenjeBrojevaNiza(int[] niz) {
-		System.out.println("Unesi vrijednost duzine niza: ");
+		System.out.println("Unesi vrijednost duzine niza: "); //program treba da ispise zadnjih a ne prvih 10 elemenata
+		                                                      //korisnik unosi brojeve dok ne unese -1, 
+		                                                      // znaci da konstrukcija gdje se korisnika
+		                                                      //pita za duzinu niza nije dozvoljena
 		int brojElemenata = TextIO.getlnInt();
 		niz = new int[brojElemenata];
 		System.out.println("Unesi brojeve u  niza: ");

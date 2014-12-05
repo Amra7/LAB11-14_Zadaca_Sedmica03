@@ -12,7 +12,7 @@ public class ZadatakBr11CezarovaSifra {
 		char [] novaRecenica = new char [recenicaNiz.length];
 		char pomak = 3;
 		
-		for ( int i = 0; i<recenica.length();  i++){
+		for ( int i = 0; i<recenica.length();  i++){ // ne funkcionise za zadnje cifre
 			novaRecenica[i] =(char)((recenicaNiz[i] + pomak));
 		}
 		
